@@ -84,6 +84,57 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+.logo {
+  width: 65%;
+  height: 250px;
+  padding-top: 50px;
+   user-select: none;
+}
+
+.logo b{
+  font: 400 19vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #9592f7, 0 0 0.5em #9a97ee, 0 0 0.1em #8581f2, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
 
 p {
   margin-top: 0;
@@ -2458,19 +2509,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #5f9ae3;
+  border-color: #6a95d5;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #548b87;
-  border-color: #4f837f;
+  background-color: #5f9ae3;
+  border-color: #6a95d5;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #548b87;
-  border-color: #4f837f;
-  box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+  background-color: #5f9ae3;
+  border-color: #6a95d5;
+  box-shadow: 0 0 0 0.2rem #6a95d5;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -10286,7 +10337,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/fred3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
