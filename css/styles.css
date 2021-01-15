@@ -701,6 +701,13 @@ pre code {
     padding-top: 100px;
   }
 }
+@media (min-width: 2500px) {
+  .logo {
+    width: 65%;
+    height:250px;
+    user-select: none;
+  }
+}
 .row {
   display: flex;
   flex-wrap: wrap;
