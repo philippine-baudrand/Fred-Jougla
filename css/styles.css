@@ -597,6 +597,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 320px){
   .tiktok-embed {
     max-width: 100px;
@@ -613,7 +614,7 @@ pre code {
     width: 65%;
     height:200px;
     user-select: none;
-    margin-bottom: 100px;
+    padding-top: 10px;
   }
 }
 @media (min-width: 576px) {
@@ -635,7 +636,7 @@ pre code {
     width: 65%;
     height:200px;
     user-select: none;
-    margin-bottom: 100px;
+    padding-top: 10px;
   }
 }
 @media (min-width: 768px) {
@@ -652,7 +653,7 @@ pre code {
   }
   .logo {
     width: 65%;
-    height:250px;
+    height:200px;
     user-select: none;
   }
 }
