@@ -614,7 +614,7 @@ pre code {
     width: 65%;
     height:200px;
     user-select: none;
-    padding-top: 10px;
+    padding-bottom: 20px;
   }
 }
 @media (min-width: 576px) {
