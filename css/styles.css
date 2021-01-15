@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #9592f7;
+  --primary: #7E7DF1;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -602,25 +602,72 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
+@media (min-width: 320px){
+  .tiktok-embed {
+    max-width: 100px;
+  }
+  .iframe{
+    width: 320px;
+    height: auto;
+  }
+  #iframe2{
+    width: 200px;
+    height: 150px;
+  }
+}
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+  .iframe{
+    width: 320px;
+    height: auto;
+  }
+  #iframe2{
+    width: 200px;
+    height: 150px;
+  }
+  .tiktok{
+    width: 50px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .iframe{
+    width: 700px;
+    height: 500px;
+  }
+  #iframe2{
+    width: 300px;
+    height: 250px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  .iframe{
+    width: 700px;
+    height: 500px;
+  }
+  #iframe2{
+    width: 300px;
+    height: 250px;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+  .iframe{
+    width: 700px;
+    height: 500px;
+  }
+  #iframe2{
+    width: 300px;
+    height: 250px;
   }
 }
 .row {
@@ -5333,11 +5380,11 @@ a.badge-black:focus, a.badge-black.focus {
 }
 
 .list-group-item-primary {
-  color: #345452;
+  color: #7E7DF1;
   background-color: #d4e5e4;
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #345452;
+  color: #7E7DF1;
   background-color: #c4dbda;
 }
 .list-group-item-primary.list-group-item-action.active {
@@ -10209,10 +10256,10 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(55, 182, 165, 0.75);
   }
   #mainNav .nav-link:active {
     color: #fff;
