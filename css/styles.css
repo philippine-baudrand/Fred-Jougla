@@ -84,12 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-.logo {
-  width: 65%;
-  height:200px;
-  user-select: none;
-  margin-bottom: 100px;
-}
+
 
 .logo b{
   font: 400 19vh "Vibur";
@@ -658,7 +653,7 @@ pre code {
   }
   .logo {
     width: 65%;
-    height:250px;
+    height:200px;
     user-select: none;
   }
 }
@@ -676,7 +671,7 @@ pre code {
   }
   .logo {
     width: 65%;
-    height:250px;
+    height:200px;
     user-select: none;
   }
 }
@@ -696,6 +691,14 @@ pre code {
     width: 65%;
     height:250px;
     user-select: none;
+  }
+}
+@media (min-width: 1440px) {
+  .logo {
+    width: 65%;
+    height:250px;
+    user-select: none;
+    padding-top: 100px;
   }
 }
 .row {
