@@ -85,6 +85,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.logo {
+  width: 65%;
+  height:250px;
+  user-select: none;
+
+}
 
 .logo b{
   font: 400 19vh "Vibur";
@@ -610,12 +616,6 @@ pre code {
     width: 200px;
     height: 150px;
   }
-  .logo {
-    width: 65%;
-    height:200px;
-    user-select: none;
-    margin-bottom: 100px;
-  }
 }
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -632,12 +632,6 @@ pre code {
   .tiktok{
     width: 50px;
   }
-  .logo {
-    width: 65%;
-    height:200px;
-    user-select: none;
-    margin-bottom: 100px;
-  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -650,11 +644,6 @@ pre code {
   #iframe2{
     width: 300px;
     height: 250px;
-  }
-  .logo {
-    width: 65%;
-    height:200px;
-    user-select: none;
   }
 }
 @media (min-width: 992px) {
@@ -669,11 +658,6 @@ pre code {
     width: 300px;
     height: 250px;
   }
-  .logo {
-    width: 65%;
-    height:200px;
-    user-select: none;
-  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -687,27 +671,8 @@ pre code {
     width: 300px;
     height: 250px;
   }
-  .logo {
-    width: 65%;
-    height:250px;
-    user-select: none;
-  }
 }
-@media (min-width: 1440px) {
-  .logo {
-    width: 65%;
-    height:250px;
-    user-select: none;
-    padding-top: 100px;
-  }
-}
-@media (min-width: 2500px) {
-  .logo {
-    width: 65%;
-    height:250px;
-    user-select: none;
-  }
-}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -6222,7 +6187,6 @@ a.close.disabled {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
