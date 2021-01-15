@@ -84,6 +84,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+.logo {
+  width: 65%;
+  height:200px;
+  user-select: none;
+  margin-bottom: 100px;
+}
 
 .logo b{
   font: 400 19vh "Vibur";
@@ -597,7 +603,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 320px){
   .tiktok-embed {
     max-width: 100px;
@@ -614,7 +619,7 @@ pre code {
     width: 65%;
     height:200px;
     user-select: none;
-    padding-bottom: 20px;
+    margin-bottom: 100px;
   }
 }
 @media (min-width: 576px) {
@@ -636,7 +641,7 @@ pre code {
     width: 65%;
     height:200px;
     user-select: none;
-    padding-top: 10px;
+    margin-bottom: 100px;
   }
 }
 @media (min-width: 768px) {
@@ -653,7 +658,7 @@ pre code {
   }
   .logo {
     width: 65%;
-    height:200px;
+    height:250px;
     user-select: none;
   }
 }
