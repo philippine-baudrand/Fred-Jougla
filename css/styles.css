@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   height:250px;
   user-select: none;
   margin: 11%;
+  padding-left: 0 !important;
 }
 
 .logo b{
