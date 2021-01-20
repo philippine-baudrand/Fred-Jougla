@@ -93,6 +93,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0 !important;
 }
 
+.logo-fred{
+  width: 5rem;
+}
+
+.logo-fred-a{
+  margin-left: 0!important;
+  padding: 0!important;
+}
+
 .logo b{
   font: 400 19vh "Vibur";
   color: #fee;
@@ -10307,11 +10316,10 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/15Fred.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/IMG_27922.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
