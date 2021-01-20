@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-fred{
-  width: 5rem;
+  width: 4rem;
 }
 
 .logo-fred-a{
@@ -626,6 +626,12 @@ pre code {
     width: 200px;
     height: 150px;
   }
+  .logo-fred-a{
+    display:none;
+  }
+  .logo-fred{
+    display:none;
+  }
 }
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -641,6 +647,12 @@ pre code {
   }
   .tiktok{
     width: 50px;
+  }
+  .logo-fred-a{
+    display:block;
+  }
+  .logo-fred{
+    display:block;
   }
 }
 @media (min-width: 768px) {
